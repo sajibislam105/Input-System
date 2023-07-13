@@ -9,23 +9,24 @@ public class Player : MonoBehaviour
     private Rigidbody _rigidbody;
     [SerializeField] private float swerveSpeed = 0.5f;
     [SerializeField]private float playerMoveSpeed = 10f;
-    private float SwerveAmount = 1f;
+    private float _swerveAmount = 1f;
 
     // Start is called before the first frame update
-    void Awake()
+    private void Awake()
     {
         _swerveInputSystem = GetComponent<SwerveInputSystem>();
         _rigidbody = GetComponent<Rigidbody>();
     }
 
     // Update is called once per frame
-    void Update()
+    private void Update()
     {
         Vector3 movement = new Vector3(0, 0f, 1) * ( playerMoveSpeed * Time.deltaTime);
         _rigidbody.MovePosition(transform.position + movement);
         
         float swerve = _swerveInputSystem.MoveFactorX * swerveSpeed * Time.deltaTime;
-        swerve = Mathf.Clamp(swerve, -SwerveAmount, SwerveAmount);
+        swerve = Mathf.Clamp(swerve, -_swerveAmount, _swerveAmount);
         transform.Translate(swerve,0,0);
+        transform.rotation = Quaternion.Euler(Vector3.zero);
     }
 }
