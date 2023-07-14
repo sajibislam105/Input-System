@@ -14,8 +14,6 @@ public class SwipeInputSystem : MonoBehaviour
     {
         _rigidbody = GetComponent<Rigidbody>();
     }
-
-    // Update is called once per frame
     void Update()
     {
         if (Input.touchCount > 0)
@@ -27,15 +25,16 @@ public class SwipeInputSystem : MonoBehaviour
            {
                touchPos = hit.point;
            }
-
            switch (touch.phase)
            {
                case TouchPhase.Began:
                    deltaX = touchPos.x - transform.position.x;
-                   deltaZ = touchPos.y - transform.position.y;
+                   //deltaZ = touchPos.y - transform.position.y;
+                   deltaZ = touchPos.z - transform.position.z;
                    break;
                case TouchPhase.Moved:
-                   _rigidbody.MovePosition(new Vector3(touchPos.x-deltaX,1.5f,touchPos.z - deltaZ));
+                   _rigidbody.MovePosition(new Vector3(touchPos.x-deltaX,1.1f,touchPos.z - deltaZ));
+                   _rigidbody.rotation = Quaternion.Euler(Vector3.zero);
                    break;
                case TouchPhase.Ended:
                    _rigidbody.velocity = Vector3.zero;
