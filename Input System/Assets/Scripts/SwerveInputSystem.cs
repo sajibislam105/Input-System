@@ -8,7 +8,7 @@ public class SwerveInputSystem : MonoBehaviour
     private float moveFactorX;
     public float MoveFactorX => moveFactorX; 
     
-    // Update is called once per frame
+
     private void Update()
     {
         if (Input.GetMouseButtonDown(0))
