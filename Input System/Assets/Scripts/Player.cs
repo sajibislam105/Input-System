@@ -18,15 +18,12 @@ public class Player : MonoBehaviour
         _rigidbody = GetComponent<Rigidbody>();
     }
 
-    // Update is called once per frame
     private void Update()
     {
-        Vector3 movement = new Vector3(0, 0f, 1) * ( playerMoveSpeed * Time.deltaTime);
-        _rigidbody.MovePosition(transform.position + movement);
-        
+        float playerForwardMovement = playerMoveSpeed * Time.deltaTime;
         float swerve = _swerveInputSystem.MoveFactorX * swerveSpeed * Time.deltaTime;
         swerve = Mathf.Clamp(swerve, -_swerveAmount, _swerveAmount);
-        transform.Translate(swerve,0,0);
+        transform.Translate(swerve,0,playerForwardMovement);
         transform.rotation = Quaternion.Euler(Vector3.zero);
     }
 }
