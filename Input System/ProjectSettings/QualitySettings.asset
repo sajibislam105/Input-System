@@ -13,7 +13,7 @@ QualitySettings:
     shadowResolution: 0
     shadowProjection: 1
     shadowCascades: 1
-    shadowDistance: 15
+    shadowdistanceance: 15
     shadowNearPlaneOffset: 3
     shadowCascade2Split: 0.33333334
     shadowCascade4Split: {x: 0.06666667, y: 0.2, z: 0.46666667}
@@ -27,7 +27,7 @@ QualitySettings:
     softVegetation: 0
     realtimeReflectionProbes: 0
     billboardsFaceCameraPosition: 0
-    useLegacyDetailDistribution: 1
+    useLegacyDetaildistanceribution: 1
     vSyncCount: 0
     lodBias: 0.3
     maximumLODLevel: 0
@@ -47,9 +47,9 @@ QualitySettings:
     terrainQualityOverrides: 0
     terrainPixelError: 1
     terrainDetailDensityScale: 1
-    terrainBasemapDistance: 1000
-    terrainDetailDistance: 80
-    terrainTreeDistance: 5000
+    terrainBasemapdistanceance: 1000
+    terrainDetaildistanceance: 80
+    terrainTreedistanceance: 5000
     terrainBillboardStart: 50
     terrainFadeLength: 5
     terrainMaxTrees: 50
@@ -61,7 +61,7 @@ QualitySettings:
     shadowResolution: 0
     shadowProjection: 1
     shadowCascades: 1
-    shadowDistance: 20
+    shadowdistanceance: 20
     shadowNearPlaneOffset: 3
     shadowCascade2Split: 0.33333334
     shadowCascade4Split: {x: 0.06666667, y: 0.2, z: 0.46666667}
@@ -75,7 +75,7 @@ QualitySettings:
     softVegetation: 0
     realtimeReflectionProbes: 0
     billboardsFaceCameraPosition: 0
-    useLegacyDetailDistribution: 1
+    useLegacyDetaildistanceribution: 1
     vSyncCount: 0
     lodBias: 0.4
     maximumLODLevel: 0
@@ -95,9 +95,9 @@ QualitySettings:
     terrainQualityOverrides: 0
     terrainPixelError: 1
     terrainDetailDensityScale: 1
-    terrainBasemapDistance: 1000
-    terrainDetailDistance: 80
-    terrainTreeDistance: 5000
+    terrainBasemapdistanceance: 1000
+    terrainDetaildistanceance: 80
+    terrainTreedistanceance: 5000
     terrainBillboardStart: 50
     terrainFadeLength: 5
     terrainMaxTrees: 50
@@ -109,7 +109,7 @@ QualitySettings:
     shadowResolution: 0
     shadowProjection: 1
     shadowCascades: 1
-    shadowDistance: 20
+    shadowdistanceance: 20
     shadowNearPlaneOffset: 3
     shadowCascade2Split: 0.33333334
     shadowCascade4Split: {x: 0.06666667, y: 0.2, z: 0.46666667}
@@ -123,7 +123,7 @@ QualitySettings:
     softVegetation: 0
     realtimeReflectionProbes: 0
     billboardsFaceCameraPosition: 0
-    useLegacyDetailDistribution: 1
+    useLegacyDetaildistanceribution: 1
     vSyncCount: 1
     lodBias: 0.7
     maximumLODLevel: 0
@@ -143,9 +143,9 @@ QualitySettings:
     terrainQualityOverrides: 0
     terrainPixelError: 1
     terrainDetailDensityScale: 1
-    terrainBasemapDistance: 1000
-    terrainDetailDistance: 80
-    terrainTreeDistance: 5000
+    terrainBasemapdistanceance: 1000
+    terrainDetaildistanceance: 80
+    terrainTreedistanceance: 5000
     terrainBillboardStart: 50
     terrainFadeLength: 5
     terrainMaxTrees: 50
@@ -157,7 +157,7 @@ QualitySettings:
     shadowResolution: 1
     shadowProjection: 1
     shadowCascades: 2
-    shadowDistance: 40
+    shadowdistanceance: 40
     shadowNearPlaneOffset: 3
     shadowCascade2Split: 0.33333334
     shadowCascade4Split: {x: 0.06666667, y: 0.2, z: 0.46666667}
@@ -171,7 +171,7 @@ QualitySettings:
     softVegetation: 1
     realtimeReflectionProbes: 1
     billboardsFaceCameraPosition: 1
-    useLegacyDetailDistribution: 1
+    useLegacyDetaildistanceribution: 1
     vSyncCount: 1
     lodBias: 1
     maximumLODLevel: 0
@@ -191,9 +191,9 @@ QualitySettings:
     terrainQualityOverrides: 0
     terrainPixelError: 1
     terrainDetailDensityScale: 1
-    terrainBasemapDistance: 1000
-    terrainDetailDistance: 80
-    terrainTreeDistance: 5000
+    terrainBasemapdistanceance: 1000
+    terrainDetaildistanceance: 80
+    terrainTreedistanceance: 5000
     terrainBillboardStart: 50
     terrainFadeLength: 5
     terrainMaxTrees: 50
@@ -205,7 +205,7 @@ QualitySettings:
     shadowResolution: 2
     shadowProjection: 1
     shadowCascades: 2
-    shadowDistance: 70
+    shadowdistanceance: 70
     shadowNearPlaneOffset: 3
     shadowCascade2Split: 0.33333334
     shadowCascade4Split: {x: 0.06666667, y: 0.2, z: 0.46666667}
@@ -219,7 +219,7 @@ QualitySettings:
     softVegetation: 1
     realtimeReflectionProbes: 1
     billboardsFaceCameraPosition: 1
-    useLegacyDetailDistribution: 1
+    useLegacyDetaildistanceribution: 1
     vSyncCount: 1
     lodBias: 1.5
     maximumLODLevel: 0
@@ -239,9 +239,9 @@ QualitySettings:
     terrainQualityOverrides: 0
     terrainPixelError: 1
     terrainDetailDensityScale: 1
-    terrainBasemapDistance: 1000
-    terrainDetailDistance: 80
-    terrainTreeDistance: 5000
+    terrainBasemapdistanceance: 1000
+    terrainDetaildistanceance: 80
+    terrainTreedistanceance: 5000
     terrainBillboardStart: 50
     terrainFadeLength: 5
     terrainMaxTrees: 50
@@ -253,7 +253,7 @@ QualitySettings:
     shadowResolution: 2
     shadowProjection: 1
     shadowCascades: 4
-    shadowDistance: 150
+    shadowdistanceance: 150
     shadowNearPlaneOffset: 3
     shadowCascade2Split: 0.33333334
     shadowCascade4Split: {x: 0.06666667, y: 0.2, z: 0.46666667}
@@ -267,7 +267,7 @@ QualitySettings:
     softVegetation: 1
     realtimeReflectionProbes: 1
     billboardsFaceCameraPosition: 1
-    useLegacyDetailDistribution: 1
+    useLegacyDetaildistanceribution: 1
     vSyncCount: 1
     lodBias: 2
     maximumLODLevel: 0
@@ -287,9 +287,9 @@ QualitySettings:
     terrainQualityOverrides: 0
     terrainPixelError: 1
     terrainDetailDensityScale: 1
-    terrainBasemapDistance: 1000
-    terrainDetailDistance: 80
-    terrainTreeDistance: 5000
+    terrainBasemapdistanceance: 1000
+    terrainDetaildistanceance: 80
+    terrainTreedistanceance: 5000
     terrainBillboardStart: 50
     terrainFadeLength: 5
     terrainMaxTrees: 50

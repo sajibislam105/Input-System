@@ -29,8 +29,8 @@ public class Player : MonoBehaviour
         _rigidbody.rotation = Quaternion.Euler(Vector3.zero);
         
         Vector3 currentPosition = _rigidbody.position;
-        float distanceMoved = Mathf.Abs(currentPosition.x - previousPosition.x); //absolute so negative value is checked
-        if (distanceMoved > MaxSwerveAmount )
+        float distanceanceMoved = Mathf.Abs(currentPosition.x - previousPosition.x); //absolute so negative value is checked
+        if (distanceanceMoved > MaxSwerveAmount )
         {
             _rigidbody.position = lastValidPosition;
         }
