@@ -1,13 +1,10 @@
-using System;
-using System.Collections;
-using System.Collections.Generic;
-using Unity.VisualScripting;
 using UnityEngine;
 
 public class Player : MonoBehaviour
 {
     private SwerveInputSystem _swerveInputSystem;
     private Rigidbody _rigidbody;
+    
     [SerializeField] private float swerveSpeed = 0.5f;
     [SerializeField]private float playerMoveSpeed = 5f;
     [SerializeField] private float MaxSwerveAmount = 4f;
@@ -41,6 +38,5 @@ public class Player : MonoBehaviour
         {
             lastValidPosition = _rigidbody.position;
         }
-        
     }
 }
