@@ -11,13 +11,15 @@ public class PlaceObjectOnGrid : MonoBehaviour
     }
     private void CreateGrid()
     {
-        //_nodes = new Node[_width, _height];
         var name = 0;
+        float startX = -(_width - 1) / 2f;  // Calculate the starting X position
+        float startY = -(_height - 1) / 2f; // Calculate the starting Y position
+    
         for (int x = 0; x < _width; x++)
         {
             for (int y = 0; y < _height; y++)
             {
-                Vector3 worldPosition = new Vector3(x, 0, y);
+                Vector3 worldPosition = new Vector3(startX + x, 0, startY + y);
                 Transform obj = Instantiate(_gridCellPrefab, worldPosition, Quaternion.identity);
                 obj.transform.parent = gameObject.transform;
                 obj.name = "Cell " + name;
@@ -26,4 +28,5 @@ public class PlaceObjectOnGrid : MonoBehaviour
         }
         gameObject.transform.rotation = Quaternion.Euler(-90, 0, 0);
     }
+
 }

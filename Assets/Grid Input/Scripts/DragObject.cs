@@ -32,7 +32,7 @@ public class DragObject : MonoBehaviour
 
         if (Input.GetMouseButton(0) && isDragging)
         {
-            v3 = new Vector3(Input.mousePosition.x, Input.mousePosition.y, _distance - 0.5f);
+            v3 = new Vector3(Input.mousePosition.x, Input.mousePosition.y, _distance - 0.5f); // 0.5f so that after grabbing the object it comes up towards screen.
             v3 = Camera.main.ScreenToWorldPoint(v3);
             _toDrag.position = v3 + _offset;
             Ray objectRay = new Ray(transform.position, Vector3.forward);
